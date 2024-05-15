@@ -1,4 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
+  background: linear-gradient(270deg, #f6d365 0%, #fda085 100%);
+}
+
+.myborder{
+  border: 1px solid red;
+}
+/* 
 
 * {
   box-sizing: border-box;
@@ -259,4 +278,4 @@ h1 {
     opacity: 1;
     transform: translateY(0);
   }
-}
+} */
