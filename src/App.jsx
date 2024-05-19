@@ -1,11 +1,11 @@
 import Header from './components/Header.jsx'
-import Foods from './components/Foods.jsx';
+import Meals from './components/Meals.jsx';
 
 function App() {
   return (
     <>
       <Header />
-      <Foods  />
+      <Meals />
     </>
   );
 }
