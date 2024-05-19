@@ -15,7 +15,7 @@ export default function Meals(){
         }    
         fetchMeals()
     }, [])
-    console.log(loadedMeals);
+    // console.log(loadedMeals);
 
 
     return (
